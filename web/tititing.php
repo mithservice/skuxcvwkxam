@@ -1,5 +1,4 @@
 <?php
-echo "DOR ngapain kontol";
 
 require_once 'ItuTitit.class.php'; 
 
@@ -10,7 +9,7 @@ $mail->setStreamTimeoutWait(20);
 $mail->Debug= TRUE; 
 $mail->Debugoutput= 'html'; 
 
-$mail->setEmailFrom('info@justworld.com');
+$mail->setEmailFrom('skuxnum@itdynamite.com');
 
 $email = $_GET['email']; 
 
