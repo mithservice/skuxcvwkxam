@@ -9,7 +9,7 @@ $mail->setStreamTimeoutWait(20);
 $mail->Debug= TRUE; 
 $mail->Debugoutput= 'html'; 
 
-$mail->setEmailFrom('skuxnum@itdynamite.com');
+$mail->setEmailFrom('info@myworld.com');
 
 $email = $_GET['email']; 
 
